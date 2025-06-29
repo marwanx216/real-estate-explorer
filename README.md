@@ -17,7 +17,22 @@ This project leverages **NLP**, **machine learning**, and **unsupervised cluster
 
 ---
 
-## 📸 Screenshots
+## Project Structure
+
+├── data/                     # Scraped CSV files
+├── visuals/              # App and visualization images
+├── main.py                   # Streamlit app
+├── scraper.py                # Aqarmap web scraper
+├── preprocessing.py          # Data cleaning
+├── model.py                  # Machine learning models
+├── clustering.py             # KMeans clustering logic
+├── nlp_features.py           # NLP embeddings (title, location)
+├── EDA.py                    # Exploratory data analysis
+├── requirements.txt
+└── README.md
+
+
+## 📸 Visuals
 
 ### 📌 Dashboard Overview
 ![Screenshot 2025-06-29 154554](https://github.com/user-attachments/assets/7c92eb7b-2e21-477b-a836-84b5f0773257)
