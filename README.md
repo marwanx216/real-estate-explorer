@@ -17,8 +17,9 @@ This project leverages **NLP**, **machine learning**, and **unsupervised cluster
 
 ---
 
-## Project Structure
+### 📁 Project Structure
 
+```text
 real-estate-explorer/
 │
 ├── 📂 data/                  # Folder for scraped or preprocessed CSV data
@@ -40,6 +41,7 @@ real-estate-explorer/
 ├── 📜 README.md              # Project overview and usage guide
 │
 └── 📜 .gitignore             # Files/folders to ignore in version control
+
 
 
 ## 📸 Visuals
