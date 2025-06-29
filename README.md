@@ -42,6 +42,7 @@ real-estate-explorer/
 │
 └── 📜 .gitignore             # Files/folders to ignore in version control
 
+```
 
 
 ## 📸 Visuals
