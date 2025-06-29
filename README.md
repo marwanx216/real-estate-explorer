@@ -19,17 +19,27 @@ This project leverages **NLP**, **machine learning**, and **unsupervised cluster
 
 ## Project Structure
 
-├── data/                     # Scraped CSV files
-├── visuals/              # App and visualization images
-├── main.py                   # Streamlit app
-├── scraper.py                # Aqarmap web scraper
-├── preprocessing.py          # Data cleaning
-├── model.py                  # Machine learning models
-├── clustering.py             # KMeans clustering logic
-├── nlp_features.py           # NLP embeddings (title, location)
-├── EDA.py                    # Exploratory data analysis
-├── requirements.txt
-└── README.md
+real-estate-explorer/
+│
+├── 📂 data/                  # Folder for scraped or preprocessed CSV data
+│   └── aqarmap_listings.csv
+│
+├── 📂 visuals/               # Folder for saved plots, charts, or screenshots
+│   └── dashboard_screenshot.png
+│
+├── 📂 .venv/                 # (Optional) Your virtual environment folder (usually in .gitignore)
+│
+├── 📜 main.py                # Streamlit app – runs the full dashboard
+├── 📜 scraper.py             # Handles web scraping logic from Aqarmap
+├── 📜 preprocessing.py       # Cleans and processes raw data
+├── 📜 model.py               # Machine learning models (RandomForest, XGBoost, etc.)
+├── 📜 clustering.py          # Clustering logic using NLP features
+├── 📜 nlp_features.py        # NLP feature extraction (SBERT, TF-IDF)
+├── 📜 EDA.py                 # Exploratory Data Analysis visuals
+├── 📜 requirements.txt       # Python dependencies
+├── 📜 README.md              # Project overview and usage guide
+│
+└── 📜 .gitignore             # Files/folders to ignore in version control
 
 
 ## 📸 Visuals
